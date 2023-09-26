@@ -20,7 +20,8 @@
                     width: 65%;
                     margin: auto;
                     padding: 2rem 0;
-                    font-size: 1.5rem;
+                    font-size: 1.6rem;
+                    line-height: 2.5rem;
                     color: $black_light;
                 }
             }
@@ -39,6 +40,7 @@
                         a{
                             width: 100%;
                             height: 100%;
+                            display: block;
                             img{
                                 width: 17rem;
                                 height: 17rem;
@@ -366,7 +368,7 @@
                     width: 100%;
                     display: flex;
                     flex-wrap: wrap;
-                    justify-content: center;
+                    justify-content: center center;
                     align-items: center;
                     gap:1.5rem;
                     .single_list{
@@ -414,18 +416,6 @@
             .rental_product_text{
                 width: 100%;
                 text-align: center;
-                h2{
-                    width: 100%;
-                    font-size: 3rem;
-                    color: $black_light;
-                }
-                p{
-                    width: 65%;
-                    margin: auto;
-                    padding: 2rem 0;
-                    font-size: 1.5rem;
-                    color: $black_light;
-                }
             }
             .rental_product_category{
                 width: 100%;
@@ -481,18 +471,6 @@
             .rental_product_text{
                 width: 100%;
                 text-align: center;
-                h2{
-                    width: 100%;
-                    font-size: 3rem;
-                    color: $black_light;
-                }
-                p{
-                    width: 65%;
-                    margin: auto;
-                    padding: 2rem 0;
-                    font-size: 1.5rem;
-                    color: $black_light;
-                }
             }
             .rental_product_category{
                 width: 100%;
@@ -682,18 +660,6 @@
             .rental_product_text{
                 width: 100%;
                 text-align: center;
-                h2{
-                    width: 100%;
-                    font-size: 2rem;
-                    color: $black_light;
-                }
-                p{
-                    width: 65%;
-                    margin: auto;
-                    padding: 1.5rem 0;
-                    font-size: 1.2rem;
-                    color: $black_light;
-                }
             }
             .rental_product_category{
                 width: 100%;
@@ -749,18 +715,6 @@
             .rental_product_text{
                 width: 100%;
                 text-align: center;
-                h2{
-                    width: 100%;
-                    font-size: 2rem;
-                    color: $black_light;
-                }
-                p{
-                    width: 65%;
-                    margin: auto;
-                    padding: 1.5rem 0;
-                    font-size: 1.2rem;
-                    color: $black_light;
-                }
             }
             .rental_product_category{
                 width: 100%;
@@ -816,18 +770,6 @@
             .rental_product_text{
                 width: 100%;
                 text-align: center;
-                h2{
-                    width: 100%;
-                    font-size: 2rem;
-                    color: $black_light;
-                }
-                p{
-                    width: 65%;
-                    margin: auto;
-                    padding: 1.5rem 0;
-                    font-size: 1.2rem;
-                    color: $black_light;
-                }
             }
             .rental_product_category{
                 width: 100%;
@@ -839,7 +781,7 @@
                     align-items: center;
                     gap:1.5rem;
                     .single_list{
-                        width: 30%;
+                        width: 48%;
                         height: 19rem;
                         a{
                             width: 100%;
@@ -906,7 +848,7 @@
                     align-items: center;
                     gap:1.5rem;
                     .single_list{
-                        width: 45%;
+                        width: 48%;
                         height: 19rem;
                         a{
                             width: 100%;
@@ -950,18 +892,6 @@
             .rental_product_text{
                 width: 100%;
                 text-align: center;
-                h2{
-                    width: 100%;
-                    font-size: 2rem;
-                    color: $black_light;
-                }
-                p{
-                    width: 65%;
-                    margin: auto;
-                    padding: 1.5rem 0;
-                    font-size: 1.2rem;
-                    color: $black_light;
-                }
             }
             .rental_product_category{
                 width: 100%;
@@ -971,147 +901,70 @@
                     flex-wrap: wrap;
                     justify-content: center;
                     align-items: center;
-                    gap:1.5rem;
+                    gap:1rem;
+                    .single_list{
+                        width: 48%;
+                        height: 19rem;
+                        text-align: center;
+                        a{
+                            width: 100%;
+                            height: 100%;
+                            cursor: pointer;
+                            img{
+                                width: 17rem;
+                                height: 17rem;
+                            }
+                            p{
+                                width: 100%;
+                                height: 4rem;
+                                text-align: center;
+                                font-size: 1.6rem;
+                                color: $black_light;
+                                font-weight: bold;
+                                transition: 0.3s;
+                                &:hover{
+                                    color: $blue;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+}
+@media only screen and (max-width: 360px) {
+.main_page_wrapper{
+    width: 100%;
+    padding: 1rem 0;
+    font-family: title1;
+    .container{
+        width: 100% !important;
+        margin: auto;
+        .rental_product{
+            width: 100%;
+            padding-top: 7rem;
+            .rental_product_text{
+                width: 100%;
+                text-align: center;
+            }
+            .rental_product_category{
+                width: 100%;
+                .category_list{
+                    width: 100%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-items: center;
+                    gap:1rem;
                     .single_list{
                         width: 48%;
                         height: 19rem;
                         a{
                             width: 100%;
                             height: 100%;
-                            cursor: pointer;
-                            img{
-                                width: 17rem;
-                                height: 17rem;
-                            }
-                            p{
-                                width: 100%;
-                                height: 4rem;
-                                text-align: center;
-                                font-size: 1.6rem;
-                                color: $black_light;
-                                font-weight: bold;
-                                transition: 0.3s;
-                                &:hover{
-                                    color: $blue;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-}
-@media only screen and (max-width: 360px) {
-.main_page_wrapper{
-    width: 100%;
-    padding: 1rem 0;
-    font-family: title1;
-    .container{
-        width: 100% !important;
-        margin: auto;
-        .rental_product{
-            width: 100%;
-            padding-top: 7rem;
-            .rental_product_text{
-                width: 100%;
-                text-align: center;
-                h2{
-                    width: 100%;
-                    font-size: 2rem;
-                    color: $black_light;
-                }
-                p{
-                    width: 65%;
-                    margin: auto;
-                    padding: 1.5rem 0;
-                    font-size: 1.2rem;
-                    color: $black_light;
-                }
-            }
-            .rental_product_category{
-                width: 100%;
-                .category_list{
-                    width: 100%;
-                    display: flex;
-                    flex-wrap: wrap;
-                    justify-content: center;
-                    align-items: center;
-                    gap:1.5rem;
-                    .single_list{
-                        width: 65%;
-                        height: 19rem;
-                        a{
-                            width: 100%;
-                            height: 100%;
-                            cursor: pointer;
-                            img{
-                                width: 17rem;
-                                height: 17rem;
-                            }
-                            p{
-                                width: 100%;
-                                height: 4rem;
-                                text-align: center;
-                                font-size: 1.6rem;
-                                color: $black_light;
-                                font-weight: bold;
-                                transition: 0.3s;
-                                &:hover{
-                                    color: $blue;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-}
-@media only screen and (max-width: 360px) {
-.main_page_wrapper{
-    width: 100%;
-    padding: 1rem 0;
-    font-family: title1;
-    .container{
-        width: 100% !important;
-        margin: auto;
-        .rental_product{
-            width: 100%;
-            padding-top: 7rem;
-            .rental_product_text{
-                width: 100%;
-                text-align: center;
-                h2{
-                    width: 100%;
-                    font-size: 2rem;
-                    color: $black_light;
-                }
-                p{
-                    width: 65%;
-                    margin: auto;
-                    padding: 1.5rem 0;
-                    font-size: 1.2rem;
-                    color: $black_light;
-                }
-            }
-            .rental_product_category{
-                width: 100%;
-                .category_list{
-                    width: 100%;
-                    display: flex;
-                    flex-wrap: wrap;
-                    justify-content: center;
-                    align-items: center;
-                    gap:1.5rem;
-                    .single_list{
-                        width: 85%;
-                        height: 19rem;
-                        a{
-                            width: 100%;
-                            height: 100%;
+                            display: block;
                             cursor: pointer;
                             img{
                                 width: 17rem;
